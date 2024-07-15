@@ -4,8 +4,6 @@ import { RootStackScreenProps } from '../navigators/RootNavigator'
 import Icons from '@expo/vector-icons/MaterialIcons'
 import { SafeAreaView } from 'react-native-safe-area-context';
 import BottomSheet from '@gorhom/bottom-sheet';
-import CartScreen from './CartScreen';
-
 const size = ["XS", "S", "M", "L", "XL"];
 const imageMapping: { [key: string]: any } = {
   '123': require('../images/image1.jpg'),

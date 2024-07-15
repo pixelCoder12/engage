@@ -5,9 +5,9 @@ import HomeScreen from './HomeScreen';
 import Icons from '@expo/vector-icons/MaterialIcons'
 import { CompositeScreenProps } from '@react-navigation/native';
 import { RootStackScreenProps } from '../navigators/RootNavigator';
-import CartScreen from './CartScreen';
 import PaymentScreen from './PaymentScreen';
 import ProfileScreen from './ProfileScreen';
+import CartScreen from './CartScreen';
 
 export type TabStackParamList={
     Home:undefined;
